@@ -31,6 +31,12 @@
 		"sound": "hill_controlled.ogg"	},
 	"king_event_hill_contested": {
 		"sound": "hill_contested.ogg"	},
+	"king_event_hill_controlled_team": {
+		"sound": "hill_controlled.ogg"
+	},
+	"king_event_hill_contested_team": {
+		"sound": "hill_contested.ogg"
+	},
 	"ctf_event_flag_returned_by_timeout": {
 		"sound": "flag_reset.ogg"	},
 	"ctf_event_flag_returned_by_player": {
@@ -114,7 +120,7 @@
 	"earn_wp_event_multikill_10": {
 		"image": "killionaire.png",
 		"sound": "killionaire.ogg"	},
-	"earn_wp_event_kill_sniper": {
+	"flavor_event_sniper_kill": {
 		"image": "sniper_kill.png"	},
 	"flavor_event_sniper_5": {
 		"image": "sniper_spree.png",
@@ -180,7 +186,9 @@
 		"image": "unstoppable.png",
 		"sound": "unstoppable.ogg"	},
 	"infection_event_survive": {
-		"image": "last_man_standing.png",
+        "cause_player": {
+            "image": "last_man_standing.png"
+        },
 		"sound": "last_man_standing.ogg"	},
 	"flavor_event_zombie_5": {
 		"image": "infection_spree.png",
@@ -239,6 +247,9 @@
 		"sound": "vip_killed.ogg"	},
 	"general_event_gained_lead": {
 		"sound": "gained_the_lead.ogg"	},
+    "general_event_gained_team_lead": {
+		"sound": "gained_the_lead.ogg"
+	},
 	"general_event_game_over": {
 		"sound": "game_over.ogg"	},
 	"general_event_round_over": {
