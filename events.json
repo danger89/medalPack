@@ -10,11 +10,16 @@
 			"sound": "betrayal.ogg"
 		}	},
 	"assault_event_bomb_dropped": {
-		"sound": "bomb_dropped.ogg"	},
+		"sound": "bomb_dropped.ogg",
+        "cause_player": {
+                "sound": "bomb_dropped.ogg"
+        }	},
 	"assault_event_bomb_returned_by_timeout": {
 		"sound": "bomb_reset.ogg"	},
 	"assault_event_bomb_taken": {
-		"sound": "bomb_taken.ogg"	},
+        "cause_player": {
+            "sound": "bomb_taken.ogg"
+        }	},
 	"assault_event_bomb_returned_by_player": {
 		"sound": "bomb_returned.ogg"	},
 	"assault_event_bomb_captured": {
@@ -89,8 +94,10 @@
 	"flavor_event_flame_kill": {
 		"image": "incineration.png"	},
 	"flavor_event_player_kill_spreeplayer": {
-		"image": "killjoy.png",
-		"sound": "killjoy.ogg"	},
+        "cause_player": {
+            "image": "killjoy.png",
+            "sound": "killjoy.ogg"
+        }	},
 	"flavor_event_deadplayer_kill": {
 		"image": "from_the_grave.png"	},
 	"flavor_event_bashbehind_kill": {
@@ -181,16 +188,25 @@
             "image": "killionaire.png",
             "sound": "killionaire.ogg"
         }	},
-	"flavor_event_sniper_kill": {
+    "earn_wp_event_headshot": {
+        "cause_player": {
+            "image": "headshot.png"
+        }
+	},
+	"earn_wp_event_kill_sniper": {
         "cause_player": {
             "image": "sniper_kill.png"
         }	},
 	"flavor_event_sniper_5": {
-		"image": "sniper_spree.png",
-		"sound": "sniper_spree.ogg"	},
+        "cause_player": {
+            "image": "sniper_spree.png",
+            "sound": "sniper_spree.ogg"
+        }	},
 	"flavor_event_sniper_10": {
-		"image": "sharpshooter.png",
-		"sound": "sharpshooter.ogg"	},
+        "cause_player": {
+            "image": "sharpshooter.png",
+            "sound": "sharpshooter.ogg"
+        }	},
 	"flavor_event_shotgun_5": {
         "cause_player": {
             "image": "shotgun_spree.png",
@@ -226,7 +242,9 @@
             "sound": "vehicular_manslaughter.ogg"
         }	},
 	"general_event_driver_assist_gunner": {
-		"image": "wheelman.png"	},
+        "cause_player": {
+            "image": "wheelman.png"
+        }	},
 	"flavor_event_vehicle_hijack": {
         "cause_player": {
             "image": "hijacker.png"
@@ -265,16 +283,24 @@
             "image": "oddball_kill.png"
         }	},
 	"flavor_event_perfection": {
-		"image": "perfection.png",
-		"sound": "perfection.ogg"	},
+        "cause_player": {
+            "image": "perfection.png",
+            "sound": "perfection.ogg"
+        }	},
 	"flavor_event_juggernaut_player_kill_juggernaut": {
-		"image": "juggernaut_kill.png"	},
+        "cause_player": {
+            "image": "juggernaut_kill.png"
+        }	},
 	"flavor_event_juggernaut_5": {
-		"image": "juggernaut_spree.png",
-		"sound": "juggernaut_spree.ogg"	},
+        "cause_player": {
+            "image": "juggernaut_spree.png",
+            "sound": "juggernaut_spree.ogg"
+        }	},
 	"flavor_event_juggernaut_10": {
-		"image": "unstoppable.png",
-		"sound": "unstoppable.ogg"	},
+        "cause_player": {
+            "image": "unstoppable.png",
+            "sound": "unstoppable.ogg"
+        }	},
 	"infection_event_survive": {
         "cause_player": {
             "image": "last_man_standing.png"
