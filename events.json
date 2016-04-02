@@ -24,8 +24,14 @@
 		"sound": "bomb_returned.ogg"	},
 	"assault_event_bomb_captured": {
 		"sound": "bomb_detonated.ogg"	},
+    "flavor_event_assault_bomb_planted": {
+        "cause_player": {
+            "image": "bomb_planted.png"
+        }
+	},
 	"assault_event_bomb_placed_on_enemy_post": {
-		"sound": "bomb_armed.ogg"	},
+        "sound": "bomb_armed.ogg"
+	},
 	"assault_event_bomb_disarmed": {
 		"sound": "bomb_disarmed.ogg"	},
 	"vip_event_destination_area_moved": {
@@ -257,8 +263,6 @@
 		"image": "vehicle_kill.png"	},
 	"vip_kill": {
 		"image": "vip_kill.png"	},
-	"assault_event_bomb_placed_on_enemy_post": {
-		"image": "bomb_planted.png"	},
 	"general_event_kill_bomb_carrier": {
 		"image": "bomb_carrier_kill.png"	},
 	"ctf_event_flag_captured": {
