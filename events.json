@@ -91,7 +91,13 @@
         }
 	},
 	"ctf_event_flag_dropped": {
-		"sound": "flag_dropped.ogg"
+		"sound": "flag_dropped.ogg",
+        "cause_team": {
+            "sound": "flag_dropped.ogg"
+        },
+        "effect_team": {
+            "sound": "flag_dropped.ogg"
+        }
 	},
 	"oddball_event_ball_picked_up": {
 		"sound": "ball_taken.ogg"
@@ -322,11 +328,8 @@
             "image": "skyjacker.svg"
         }
 	},
-	"vip_event_vip_killed": {
+	"vehicle_event_vehicle_kill": {
 		"image": "vehicle_kill.svg"
-	},
-	"vip_kill": {
-		"image": "vip_kill.svg"
 	},
 	"general_event_kill_bomb_carrier": {
 		"image": "bomb_carrier_kill.svg"
@@ -384,8 +387,7 @@
         "cause_player": {
             "image": "last_man_standing.svg",
             "sound": "last_man_standing.ogg"
-        },
-		"sound": "last_man_standing.ogg"
+        }
 	},
 	"flavor_event_zombie_5": {
         "cause_player": {
@@ -467,9 +469,6 @@
 		"sound": "juggernaut.ogg"
 	},
 	"juggernaut_event_new_juggernaut": {
-        "cause_player": {
-            "sound": "new_juggernaut.ogg"
-        }, 
 		"sound": "new_juggernaut.ogg"
 	},
 	"infection_event_new_infection": {
@@ -493,6 +492,9 @@
 	},
 	"vip_event_vip_killed": {
 		"sound": "vip_killed.ogg"
+	},
+	"vip_kill": {
+		"image": "vip_kill.svg"
 	},
 	"flavor_event_vip_player_kill_vip": {
         "cause_player": {
