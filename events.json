@@ -39,11 +39,15 @@
 	"king_event_hill_move": {
 		"sound": "hill_moved.ogg"	},
 	"king_event_hill_controlled": {
-		"sound": "hill_controlled.ogg"	},
+        "cause_player": {
+            "sound": "hill_controlled.ogg"
+        }	},
 	"king_event_hill_contested": {
 		"sound": "hill_contested.ogg"	},
 	"king_event_hill_controlled_team": {
-		"sound": "hill_controlled.ogg"
+        "cause_team": {
+            "sound": "hill_controlled.ogg"
+        }
 	},
 	"king_event_hill_contested_team": {
 		"sound": "hill_contested.ogg"
@@ -307,7 +311,8 @@
         }	},
 	"infection_event_survive": {
         "cause_player": {
-            "image": "last_man_standing.svg"
+            "image": "last_man_standing.svg",
+            "sound": "last_man_standing.ogg"
         },
 		"sound": "last_man_standing.ogg"	},
 	"flavor_event_zombie_5": {
@@ -343,7 +348,11 @@
 	"slayer_event_game_start": {
 		"sound": "slayer.ogg"	},
 	"ctf_event_flag_new_defensive_team": {
-		"sound": "defense.ogg"	},
+        "cause_team":{
+            "sound": "defense.ogg"
+        },
+        "sound": "offense.ogg"
+        	},
 	"general_event_30_minutes_left": {
 		"sound": "thirty_mins_remaining.ogg"	},
 	"general_event_15_minutes_left": {
@@ -366,15 +375,40 @@
 		"sound": "juggernaut.ogg"
 	},
 	"juggernaut_event_new_juggernaut": {
+        "cause_player": {
+            "sound": "new_juggernaut.ogg"
+        }, 
 		"sound": "new_juggernaut.ogg"	},
 	"infection_event_new_infection": {
         "cause_player": {
             "sound": "new_zombie.ogg"
+        },        
+        "effect_player": {
+            "sound": "infected.ogg"
         }	},
+    "infection_event_alpha_zombie_spawn":{
+        "cause_player": {
+            "sound": "infected.ogg"
+        }    
+    },
 	"vip_event_new_vip": {
-		"sound": "new_vip.ogg"	},
+        "cause_player": {
+            "sound": "new_vip.ogg"
+        },
+        "sound": "new_vip.ogg"   	},
 	"vip_event_vip_killed": {
 		"sound": "vip_killed.ogg"	},
+	"flavor_event_vip_player_kill_vip": {
+        "cause_player": {
+            "sound": "vip_killed.ogg"
+        }
+	},
+    "vip_event_side_switch": {
+        "cause_team": {
+            "sound": "defense.ogg"
+        },
+        "sound": "offense.ogg"
+    },
 	"general_event_gained_lead": {
         "cause_player": {
             "sound": "gained_the_lead.ogg"
