@@ -158,7 +158,9 @@
 		"sound": "extermination.ogg"
 	},
 	"flavor_event_shotgun_kill_sword": {
-		"image": "bulltrue.svg"
+        "cause_player": {
+			"image": "bulltrue.svg"
+		}
 	},
 	"flavor_event_5_kills_in_a_row": {
         "cause_player": {
@@ -490,14 +492,9 @@
         },
         "sound": "new_vip.ogg"   
 	},
-	"vip_event_vip_killed": {
-		"sound": "vip_killed.ogg"
-	},
-	"vip_kill": {
-		"image": "vip_kill.svg"
-	},
 	"flavor_event_vip_player_kill_vip": {
         "cause_player": {
+			"image": "vip_kill.svg",
             "sound": "vip_killed.ogg"
         }
 	},
