@@ -32,12 +32,11 @@
 	"assault_event_bomb_captured": {
 		"sound": "bomb_detonated.ogg"
 	},
-    "flavor_event_assault_bomb_planted": {
+	"assault_event_bomb_placed_on_enemy_post": {
         "cause_player": {
             "image": "bomb_planted.svg"
-        }
-	},
-	"assault_event_bomb_placed_on_enemy_post": {
+            "sound": "bomb_armed.ogg"
+        },
         "sound": "bomb_armed.ogg"
 	},
 	"assault_event_bomb_disarmed": {
