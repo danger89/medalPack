@@ -34,7 +34,7 @@
 	},
 	"assault_event_bomb_placed_on_enemy_post": {
         "cause_player": {
-            "image": "bomb_planted.svg"
+            "image": "bomb_planted.svg",
             "sound": "bomb_armed.ogg"
         },
         "sound": "bomb_armed.ogg"
