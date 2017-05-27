@@ -15,14 +15,26 @@
 	"assault_event_bomb_dropped": {
 		"sound": "bomb_dropped.ogg",
         "cause_player": {
-                "sound": "bomb_dropped.ogg"
+			"sound": "bomb_dropped.ogg"
+		},
+        "cause_team": {
+			"sound": "bomb_dropped.ogg"
         }
 	},
 	"assault_event_bomb_returned_by_timeout": {
-		"sound": "bomb_reset.ogg"
+		"sound": "bomb_reset.ogg",
+        "effect_team": {
+			"sound": "bomb_reset.ogg"
+		},
+        "cause_team": {
+            "sound": "bomb_reset.ogg"
+		}
 	},
 	"assault_event_bomb_taken": {
         "cause_player": {
+            "sound": "bomb_taken.ogg"
+        },
+        "cause_team": {
             "sound": "bomb_taken.ogg"
         }
 	},
@@ -30,17 +42,29 @@
 		"sound": "bomb_returned.ogg"
 	},
 	"assault_event_bomb_captured": {
-		"sound": "bomb_detonated.ogg"
+		"sound": "bomb_detonated.ogg",
+		"cause_team": {
+			"sound": "bomb_detonated.ogg"
+        }
 	},
 	"assault_event_bomb_placed_on_enemy_post": {
         "cause_player": {
             "image": "bomb_planted.svg",
             "sound": "bomb_armed.ogg"
         },
+        "cause_team": {
+            "sound": "bomb_armed.ogg"
+        },
         "sound": "bomb_armed.ogg"
 	},
 	"assault_event_bomb_disarmed": {
-		"sound": "bomb_disarmed.ogg"
+		"sound": "bomb_disarmed.ogg",
+		"cause_player": {
+			"sound": "bomb_disarmed.ogg"
+        }
+	},
+	"assault_event_neutral_bomb_returned": {
+		"sound": "bomb_reset.ogg"
 	},
 	"vip_event_destination_area_moved": {
 		"sound": "destination_moved.ogg"
@@ -65,7 +89,13 @@
 		"sound": "hill_contested.ogg"
 	},
 	"ctf_event_flag_returned_by_timeout": {
-		"sound": "flag_reset.ogg"
+		"sound": "flag_reset.ogg",
+        "effect_team": {
+			"sound": "flag_reset.ogg"
+		},
+        "cause_team": {
+            "sound": "flag_reset.ogg"
+		}
 	},
 	"ctf_event_flag_returned_by_player": {
 		"sound": "flag_recovered.ogg",
@@ -340,7 +370,10 @@
         "cause_player": {
             "image": "flag_captured.svg",
             "sound": "flag_captured.ogg"
-        }
+        },
+        "cause_team": {
+            "sound": "flag_captured.ogg"
+        }		
 	},
 	"flavor_event_ctf_flag_player_kill_carrier": {
         "cause_player": {
