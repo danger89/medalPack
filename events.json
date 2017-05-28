@@ -107,6 +107,9 @@
         "cause_player": {
             "sound": "flag_taken.ogg"
         },
+        "cause_team": {
+            "sound": "flag_taken.ogg"
+        },
         "effect_team": {
             "sound": "flag_stolen.ogg"
         }
@@ -503,7 +506,10 @@
 		"sound": "juggernaut.ogg"
 	},
 	"juggernaut_event_new_juggernaut": {
-		"sound": "new_juggernaut.ogg"
+		"sound": "new_juggernaut.ogg",
+        "cause_player": {
+            "sound": "new_juggernaut.ogg"
+        }
 	},
 	"infection_event_new_infection": {
         "cause_player": {
