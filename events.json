@@ -164,7 +164,9 @@
         }
 	},
 	"flavor_event_flame_kill": {
-		"image": "incineration.svg"
+        "cause_player": {
+			"image": "incineration.svg"
+		}
 	},
 	"flavor_event_player_kill_spreeplayer": {
         "cause_player": {
@@ -173,7 +175,9 @@
         }
 	},
 	"flavor_event_deadplayer_kill": {
-		"image": "from_the_grave.svg"
+	    "cause_player": {
+			"image": "from_the_grave.svg"
+		}
 	},
 	"flavor_event_bashbehind_kill": {
         "cause_player": {
@@ -186,8 +190,10 @@
         }
 	},
 	"flavor_event_extermination": {
-		"image": "extermination.svg",
-		"sound": "extermination.ogg"
+	    "cause_player": {
+			"image": "extermination.svg",
+			"sound": "extermination.ogg"
+		}
 	},
 	"flavor_event_shotgun_kill_sword": {
         "cause_player": {
@@ -363,10 +369,14 @@
         }
 	},
 	"vehicle_event_vehicle_kill": {
-		"image": "vehicle_kill.svg"
+		"cause_player": {
+			"image": "vehicle_kill.svg"
+		}
 	},
 	"general_event_kill_bomb_carrier": {
-		"image": "bomb_carrier_kill.svg"
+		"cause_player": {
+			"image": "bomb_carrier_kill.svg"
+		}
 	},
 	"ctf_event_flag_captured": {
         "sound": "flag_captured.ogg",
@@ -389,8 +399,10 @@
         }
 	},
 	"flavor_event_koth_5": {
-		"image": "hail_to_the_king.svg",
-		"sound": "hail_to_the_king.ogg"
+        "cause_player": {
+			"image": "hail_to_the_king.svg",
+			"sound": "hail_to_the_king.ogg"
+		}
 	},
 	"flavor_event_oddball_carrier_kill_player": {
         "cause_player": {
