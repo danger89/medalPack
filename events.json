@@ -1,4 +1,12 @@
-{
+{   
+    "settings": {
+        "imageFormat": "svg",
+        "audioFormat": "ogg",
+        "medalWidth": "3.5vw",
+        "leftPos": "6.78vw",
+        "bottomPos": "32vh",
+        "transform": "skew(0,-2.75deg)"
+    },
 	"general_event_suicide": {
 		"cause_player": {
 			"sound": "suicide.ogg"
