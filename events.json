@@ -441,7 +441,7 @@
         }
 	},
 	"infection_event_survive": {
-        "sound": "last_man_standing.ogg"
+        "sound": "last_man_standing.ogg",
 		"cause_player": {
             "image": "last_man_standing.svg",
             "sound": "last_man_standing.ogg"
