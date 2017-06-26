@@ -441,7 +441,8 @@
         }
 	},
 	"infection_event_survive": {
-        "cause_player": {
+        "sound": "last_man_standing.ogg"
+		"cause_player": {
             "image": "last_man_standing.svg",
             "sound": "last_man_standing.ogg"
         }
@@ -487,6 +488,9 @@
 	},
 	"slayer_event_game_start": {
 		"sound": "slayer.ogg"
+	},
+	"infection_event_game_start": {
+		"sound": "infection.ogg"
 	},
 	"ctf_event_flag_new_defensive_team": {
         "cause_team":{
