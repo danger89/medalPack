@@ -298,11 +298,6 @@
             "sound": "killionaire.ogg"
         }
 	},
-    "earn_wp_event_headshot": {
-        "cause_player": {
-            "image": "headshot.svg"
-        }
-	},
 	"earn_wp_event_kill_sniper": {
         "cause_player": {
             "image": "sniper_kill.svg"
